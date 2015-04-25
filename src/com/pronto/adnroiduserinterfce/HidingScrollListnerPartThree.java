@@ -1,9 +1,7 @@
 package com.pronto.adnroiduserinterfce;
 
 import android.content.Context;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 
 public abstract class HidingScrollListnerPartThree extends
 		RecyclerView.OnScrollListener {
@@ -19,7 +17,6 @@ public abstract class HidingScrollListnerPartThree extends
 	public HidingScrollListnerPartThree(Context context) {
 		mToolbarHeight = Utils.getToolbarHeight(context);
 	}
-
 
 	@Override
 	public void onScrollStateChanged(RecyclerView recyclerView, int newState) {

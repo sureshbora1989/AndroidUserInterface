@@ -14,7 +14,6 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.pronto.adnroiduserinterfce.fragmetns.BaseFragment;
 import com.pronto.adnroiduserinterfce.fragmetns.CallLogFragment;
 import com.pronto.adnroiduserinterfce.fragmetns.ContactsFragment;
 import com.pronto.adnroiduserinterfce.view.SlidingTabLayout;
@@ -22,7 +21,7 @@ import com.pronto.adnroiduserinterfce.view.SlidingTabLayout;
 public class PartThreeActivity extends ActionBarActivity {
 
 	private SlidingTabLayout mSlidingTabLayout;
-	private ViewPager mViewPager;
+	public ViewPager mViewPager;
 	private List<SamplePagerItem> mTabs = new ArrayList<SamplePagerItem>();
 	public LinearLayout mToolbarContainer;
 	public int mToolbarHeight;
@@ -40,7 +39,6 @@ public class PartThreeActivity extends ActionBarActivity {
 		mViewPager = (ViewPager) findViewById(R.id.view_pager);
 		mViewPager.setAdapter(new SampleFragmentPagerAdapter(
 				getSupportFragmentManager()));
-
 		mSlidingTabLayout = (SlidingTabLayout) findViewById(R.id.sliding_tabs);
 		mSlidingTabLayout.setDistributeEvenly(true);
 		mSlidingTabLayout.setSelectedIndicatorColors(getResources().getColor(
@@ -148,4 +146,5 @@ public class PartThreeActivity extends ActionBarActivity {
 			return mDividerColor;
 		}
 	}
+
 }

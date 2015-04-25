@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/simple_toolbar_hide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Hide on Scroll" />
+
+    <Button
+        android:id="@+id/toolbar_hide_with_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Hide on Scroll with tabs" />
+
+    <Button
+        android:id="@+id/toolbar_hide_with_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Hide on Scroll with viewpgaer" />
+
+    <Button
+        android:id="@+id/color_platte_finder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Colors of image" />
+
+    <Button
+        android:id="@+id/sticky_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sticky Scroll Example" />
+
+</LinearLayout>
